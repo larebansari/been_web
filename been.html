@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEEN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url(style.css);
+    </style>
+    <style>
+  body {
+    background-image: url('image/carbg1.jpg');
+    background-size: 1400px;
+    background-repeat: no-repeat;
+
+  }
+  .nava_fix
+{
+    position: fixed;
+}
+
+</style>
+<script src="program.js"></script>
+</head>
+<body  onscroll="scrollpage()">
+    <nav class="nav">
+        <section>
+            <img src="image/logo.png">
+        </section>
+        <section>
+            <ul>
+            <li>
+            <a href="#"><input type="search" id="mysearchinput" placeholder=" search car eg. BMW Q4"></a>
+            </li>
+            <li><a>|</a></li>
+            <li><a href="#">Login</a></li>
+            </ul>
+        </section>
+    </nav>
+    <nav class="nava">
+        <section>
+        <ul>
+            <li><a href="#">NEW CAR</a>
+            <ul>
+                <li><a href="#">Search New Car</a></li>
+                <li><a href="#">Compare Car</a></li>
+                <li><a href="#">Popular Brand</a></li>
+                <li><a href="#">Latest Cars</a></li>
+                <li><a href="#">Up Coming Cars</a></li>
+                <li><a href="#">Electric Cars</a></li>
+                <li><a href="#">EV Charging Station</a></li>
+                <li><a href="#">Suggest Me a Car</a></li>
+            </ul>
+            </li>
+            <li><a href="#">USED CAR</a>
+            <ul>
+                <li><a href="#">Cars In Your City</a></li>
+                <li><a href="#">Used Car</a></li>
+                <li><a href="#">Used Car Storea</a></li>
+                <li><a href="#">Used Car valuation</a></li>
+                <li><a href="#">Scrap My Car</a></li>
+                <li><a href="#">Used Car Dealers</a></li>
+                <li><a href="#">Used Car Loan</a></li></ul>
+            </li>
+            <li><a href="#">SELL CAR</a>
+            <ul>
+                <li><a href="#">Sell Used Car</a></li>
+                <li><a href="#">Sell Car In Your City</a></li>
+                <li><a href="#">Used Car valuation</a></li>
+                <li><a href="#">Sell Car By Brand</a></li>
+                <li><a href="#">Scrap My Car</a></li>
+                <li><a href="#">How It Works?</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            </li>
+            <li><a href="#">CAR SERVICES</a>
+            <ul>
+                <li><a href="#">Pay Pending Challan</a></li>
+                <li><a href="#">Connect Cars</a></li>
+                <li><a href="#">Car Service History</a></li>
+                <li><a href="#">RTO Records</a></li>
+                <li><a href="#">Challan Check</a></li>
+            </ul>
+            </li>
+            <li><a href="#">NEWS&REVIEWS</a>
+            <ul>
+                <li><a href="#">Car News</a></li>
+                <li><a href="#">Feature Stories</a></li>
+                <li><a href="#">Car Selling Tips</a></li>
+                <li><a href="#">User Reviews</a></li>
+                <li><a href="#">Road Test</a></li>
+                <li><a href="#">Video Reviews</a></li>
+                <li><a href="#">Write a Review</a></li>
+                <li><a href="#">Car Visual Stories</a></li>
+            </ul>
+            </li>
+            <li><a href="#">MORE</a>
+            <ul>
+                <li><a href="#">Car Loan</a></li>
+                <li><a href="#">EMI Calculator</a></li>
+                <li><a href="#">Ask a Question</a></li>
+                <li><a href="#">Careers With Us</a></li>
+                <li><a href="#">Emergency Response</a></li>
+            </ul>
+            </li>
+        </ul>
+        </section>
+        <section>
+            <ul>
+                <li><a href="#">Select City</a>
+                <ul>
+                   <li><a href="#">Ahmedabad</a></li>
+                   <li><a href="#">Bangalore</a></li>
+                   <li><a href="#">Delhi NCR</a></li>
+                   <li><a href="#">Hyderabad</a></li>
+                   <li><a href="#">Jaipiur</a></li>
+                   <li><a href="#">Kolkat</a></li>
+                   <li><a href="#">Mumbai</a></li>
+                   <li><a href="#">Pune</a></li>
+                   <li><a href="#">More Cities</a></li>
+                </ul>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <div class="ncol">
+        <p><marquee direction="left"> Recommended Cars For You</marquee></p>
+        <main class="col">
+            <section>
+                <span>
+                    <h2>Price=₹2.87 Crore</h2>
+                    <h1>Mercedes-Benz SLS AMG</h1>
+                    <a href="#" onclick="aqt()">BUY</a>
+                </span>
+                <img src="image/mer.jpg">
+           
+        </section>
+        <section>
+            <span>
+            <h2>Price=63.32 lakh</h2>
+            <h1>Audi sedan rs4</h1>
+            <a href="#" onclick="aqt()">BUY</a>
+            </span>
+            <img src="image/audi.jpg">
+        </section>
+        <section>
+            <span>
+            <h2>Price=₹1.48 Cr</h2>
+            <h1>BMW M4</h1>
+            <a href="#" onclick="aqt()">BUY</a>
+            </span>
+            <img src="image/bmw.jpg">
+            
+        </section>
+        </main>
+        <main class="col">
+            <section>
+                <span>
+                <h2>Price=₹58.72 lakh </h2>
+                <h1>Chevrolet corvette z06</h1>
+                <a href="#" onclick="aqt()">BUY</a>
+                </span>
+                <img src="image/img2.jpg">>
+            </section>
+            <section>
+                <span>
+                <h2>Price=₹74.61 Lakh</h2>
+                <h1>Ford mustang</h1>
+                <a href="#" onclick="aqt()">BUY</a>
+                </span>
+                <img src="image/img3.jpg">
+            </section>
+            <section>
+                <span>
+                <h2>Price=₹5.1 Crore</h2>
+                <h1>McLaren Artura</h1>
+                <a href="#" onclick="aqt()">BUY</a>
+                </span>
+                <img src="image/img4.jpg">
+            </section>
+        </main>
+    </div>
+    <div class="slider">
+        <section>
+            <img src="image/img1.jpg">
+            <img src="image/img2.jpg">
+            <img src="image/img3.jpg">
+            <img src="image/img4.jpg">
+            <img src="image/bmw.jpg">
+        </section>
+    </div>
+    <main class="scol">
+        <p><marquee direction="left">SUV Collection</marquee></p>
+        <div class="cola">
+            <section>
+                <img src="image/scorpio.webp">
+            </section>
+            <section>
+                <ul>
+            <li><h1>Mahindra Scorpio-N</h1></li>
+            <li><h2>&#x2605;&#x2605;&#x2605;&#x2605;</h2></li>
+            <li><h3>Rs.13.05 - 24.52 Lakh</h3></li>
+            <li><h5><pre>*Ex-showroom Price in</pre><a href="#"> New Delhi &#x270F; </a></h5></li>
+            <li><h4><a href="#">View All Offers</a></h4></li>
+            <li><h6>Don't miss out on the best offers for this month</h6></li>
+            </ul>
+            </section>
+        </div>
+        <div class="cola">
+             <section>
+                <ul>
+            <li><h1>Toyota Fortuner</h1></li>
+            <li><h2>&#x2605;&#x2605;&#x2605;&#x2605;</h2></li>
+            <li><h3>Rs.32.99 - 50.74 Lakh</h3></li>
+            <li><h5><pre>*Ex-showroom Price in</pre><a href="#"> New Delhi &#x270F; </a></h5></li>
+            <li><h4><a href="#">View All Offers</a></h4></li>
+            <li><h6>Don't miss out on the best offers for this month</h6></li>
+            </ul>
+            </section>
+            <section>
+                <img src="image/fortuner.avif">
+            </section>
+        </div>
+        <div class="cola">
+            <section>
+                <img src="image/xuv700.avif">
+            </section>
+            <section>
+                <ul>
+            <li><h1>Mahindra XUV700</h1></li>
+            <li><h2>&#x2605;&#x2605;&#x2605;&#x2605;</h2></li>
+            <li><h3>Rs.14.01 - 26.18 Lakh</h3></li>
+            <li><h5><pre>*Ex-showroom Price in</pre><a href="#"> New Delhi &#x270F; </a></h5></li>
+            <li><h4><a href="#">View All Offers</a></h4></li>
+            <li><h6>Don't miss out on the best offers for this month</h6></li>
+            </ul>
+            </section>
+        </div>
+        <div class="cola">
+            <section>
+               <ul>
+           <li><h1>Hyundai Creta</h1></li>
+           <li><h2>&#x2605;&#x2605;&#x2605;&#x2605;</h2></li>
+           <li><h3>Rs.10.87 - 19.20 Lakh</h3></li>
+           <li><h5><pre>*Ex-showroom Price in</pre><a href="#"> New Delhi &#x270F; </a></h5></li>
+           <li><h4><a href="#">View All Offers</a></h4></li>
+           <li><h6>Don't miss out on the best offers for this month</h6></li>
+           </ul>
+           </section>
+           <section>
+               <img src="image/creata.avif">
+           </section>
+       </div>
+    </main>
+    <div class="nbrand">
+        <p>All Brands</p>
+        <table class="brand">
+            <tr>
+              <td><a href="#"><img src="image/bmw-logo.webp">BMW</a></td>
+              <td><a href="#"><img src="image/tata-logo.png">TATA</a></td>
+              <td><a href="#"><img src="image/Suzuki-Logo-PNG-Transparent.png">SUZUKI</a></td>
+              <td><a href="#"><img src="image/toyota-logo.png" >TOYOTA</a></td>
+              <td><a href="#"><img src="image/Hyundai-Logo.png">HYUNDAI</a></td>
+              <td><a href="#"><img src="image/Mahindra-Logo.png">MAHINDRA</a></td>
+            </tr>
+            <tr>
+              <td><a href="#"><img src="image/kia-logo.png">KIA</a></td>
+              <td><a href="#"><img src="image/Mg_logo.svg.png">MG</a></td>
+              <td><a href="#"><img src="image/audi-logo.jpg" >AUDI</a></td>
+              <td><a href="#"><img src="image/land rover-logo.png">LAND ROVER</a></td>
+              <td><a href="#"><img src="image/honda-logo.png">HONDA</a></td>
+              <td><a href="#"><img src="image/Škoda.svg.png">SKODA</a></td>
+            </tr>
+          </table>
+          <nav class="mbrand">
+          <a href="#">View More Brands</a>
+          </nav>
+        </div>
+        <footer class="footer">
+            <section>
+                <ul>
+                    <li><h1>OVER VIEW</h1></li>
+                    <li><a href="#">ABOUT Us</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                    <li><a href="#">Term&Conditions</a></li>
+                    <li><a href="#">Corporate Policies</a></li>
+                    <li><a href="#">Investers</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><h1>OTHERS</h1></li>
+                    <li><a href="#">Scrap My Car</a></li>
+                    <li><a href="#">Advertise WIth US</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Customer Care</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><h1>CONNECT WITH US</h1></li>
+                    <li><a href="#">support@carbeen.com</a></li>
+                    <li><a href="#">Deler Solution</a></li>
+                    <li><a href="#">Used Cars Business</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><h1>FOLLOW BEEN</h1></li>
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i>
+                    <li><a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </ul>
+            </section>
+            
+        </footer>
+        <footer>
+            <ul class="endf">
+                <li><a href="#">Term of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Golabal Privacy Policy</a></li>
+                <li><a href="#">Interst-Based Ads</a></li>
+                <li><a href="#">License Agreement</a></li>
+                <li><a href="#">&copy;2023BEEN</a></li>
+            </ul>
+        </footer>
+
+
+</body>
+</html

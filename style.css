@@ -1,0 +1,418 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+}
+.nav
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav img
+{
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    margin-left: 500px;
+    transition-duration: 700ms;
+}
+.nav ul
+{
+    display: flex;
+    list-style-type: none;
+    transition-duration: 200ms;
+}
+
+.nav a
+{
+  color:white;
+  line-height: 150px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: sursive;
+  
+}
+#mysearchinput {
+    height: 30px; 
+    border: 2px solid gray;
+    
+  }
+  
+.nav:hover
+{
+    backdrop-filter: blur(7px);
+}
+.nav:hover img
+{
+    transform: scale(1.5,1.5);
+    transition-duration: 700ms;
+}
+.nav li:hover
+{
+    transform: scale(1.1,1.1);
+    transition-duration:200ms;
+}
+
+.nava
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0,0.5);
+    margin-bottom: 588px;
+}
+.nava ul
+{
+    display: flex;
+    list-style-type: none;
+
+}
+.nava a
+{
+    color: white;
+    text-decoration: none;
+}
+.nava ul li
+{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.nava ul li ul
+{
+    display: none;
+}
+.nava ul li:hover ul
+{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nava ul li a:hover
+{
+    color: red;
+}
+.ncol
+{
+    width: 100%;
+    height: 820px;
+    background-color: rgba(0, 0, 0,0.2);
+
+}
+.ncol p
+{
+    font-size: xx-large;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:black;
+    border: 2px solid white;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 10px;
+}
+.col
+{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  
+}
+.col section
+{
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    box-sizing: border-box;
+    flex: 1;
+    margin: 25px;
+    overflow: hidden;
+}
+.col img
+{
+    width: 100%;
+    height: 100%;
+}
+.col section:hover 
+{
+    transform: scale(1.1,1.1);
+    transition-duration: 500ms;
+    box-shadow: 0px 2px 5px black;
+    z-index: 1;
+} 
+.col h1
+{
+    text-align: center;
+}
+.col span
+{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-left: -456px;
+    transition-duration: 200ms;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.col section:hover span 
+{
+    margin-left: 0;
+    transition-duration: 500ms;
+}
+.col h2
+{
+    color: red;
+    text-align: center;
+}
+.col h1
+{
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+}
+.col a
+{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.col a:hover
+{
+    color: black;
+}
+.slider
+{
+    width: 1349px;
+    height: 600px;
+    overflow: hidden;
+}
+.slider img
+{
+    width: 1349px;
+    height: 600px;
+    float: left;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+.slider section
+{
+    width: 6745px;
+    height: 600px;
+    position: relative;
+    animation:sli 10s alternate infinite;
+}
+@keyframes sli 
+{
+    0%{left:0px;}
+    15%{left:0px;}
+    20%{left:-1349px;}
+    35%{left:-1349px;}
+    40%{left:-2698px;}
+    55%{left:-2698px;}
+    60%{left:-4047px;}
+    75%{left:-4047px;}
+    80%{left:-5396px;}
+    95%{left:-5396px;}
+    100%{left:-6745px;}
+}
+.scol
+{
+    width: 100%;
+    height: 1700px;
+    background-color: rgba(0, 0, 0,0.2);
+}
+.scol p
+{
+    font-size: xx-large;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:black;
+    border: 2px solid white;
+    box-sizing: border-box;
+    user-select: none;
+    padding: 10px;
+}
+.cola
+{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    border: 5px solid black;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.cola section
+{
+    
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+}
+.cola img
+{
+    width: 100%;
+    height: 100%;
+}
+.cola li
+{
+    list-style-type: none;
+}
+.cola h1
+{
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.cola h2
+{
+    color: goldenrod;
+}
+.cola h5
+{
+    display: flex;
+}
+.cola h5 pre
+{
+    color: gray;
+    margin: 0;
+    user-select: none;
+    line-height: 20px;
+}
+.cola h5 a
+{
+    text-decoration: none;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.cola h4 a
+{
+    width: 180px;
+    height: 30px;
+    background-color: #f75d34;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+.cola h4:hover a
+{
+    color: green;
+}
+.cola h6
+{
+    user-select: none;
+    margin-top: 50px;
+    color: gray;
+    font-size: small;
+}
+.nbrand
+{
+    width: 100%;
+    height: 450px;
+}
+.nbrand p
+{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bold;
+    user-select: none;
+    padding: 10px;
+}
+.brand
+{
+    width: 1200px;
+    height: 350px;
+    border: 1px solid gray;
+}
+.brand td
+{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.brand img
+{
+    width: 100%;
+    height: 100%;
+}
+.brand a
+{
+    text-decoration: none;
+    color: gray;
+}
+.brand td:hover
+{
+    transform: scale(0.9,0.9);
+    transition-duration: 200ms;
+    overflow: hidden;
+}
+.mbrand
+{
+    width: 1198px;
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: 2px;
+}
+.mbrand a {
+    text-decoration: none;
+    line-height: 30px;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: #707070;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+.footer section
+{
+    margin-top: 10px;
+}
+
+.footer li{
+    list-style-type: none;
+    margin: 5px;
+}
+.footer a 
+{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover
+{
+    color: red;
+}
+.endf
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: #202020;
+    list-style-type: none;
+}
+.endf a
+{
+    color: #707070;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
